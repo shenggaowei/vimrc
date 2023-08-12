@@ -77,7 +77,6 @@ set laststatus=2
 " 在状态栏显示光标的当前位置（位于哪一行哪一列）。
 set ruler
 
-
 "---------------------------------------
 " 搜索 search
 "---------------------------------------
@@ -138,8 +137,8 @@ set history=1000
 set autoread
 
 " 如果行尾有多余的空格（包括 Tab 键），该配置将让这些空格显示成可见的小方块。
-set listchars=tab:»■,trail:■
-set list
+" set listchars=tab:»■,trail:■
+" set list
 
 " 命令模式下，底部操作指令按下 Tab 键自动补全。第一次按下 Tab，会显示所有匹配的操作指令的清单；第二次按下 Tab，会依次选择各个指令。
 set wildmenu
