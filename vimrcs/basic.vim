@@ -114,13 +114,13 @@ set noswapfile
 set undofile
 
 " 备份文件保存位置
-set backupdir=~/.vim/.backup// 
+set backupdir=~/.vim_runtime/.backup// 
 
 " 交换文件保存位置
-set directory=~/.vim/.swp//
+set directory=~/.vim_runtime/.swp//
 
 " 操作历史文件保存位置
-set undodir=~/.vim/.undo//
+set undodir=~/.vim_runtime/.undo//
 
 " 自动切换工作目录
 set autochdir
