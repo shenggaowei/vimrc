@@ -12,4 +12,4 @@ sh ~/.vim_runtime/install_vimrc.sh
 
 使用 vim-plug https://github.com/junegunn/vim-plug/wiki/tutorial 管理 vim
 插件，项目不做插件的封装，需单独安装 vim-plug。然后通过 vim-plug 的命令管理
-vimrc/plugin_config.vim 中的插件
+vimrc/plugin.vim 中的插件
