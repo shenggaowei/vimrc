@@ -8,3 +8,8 @@
 git clone --depth=1 https://github.com/shenggaowei/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_vimrc.sh
 ```
+## 插件配置
+
+使用 vim-plug https://github.com/junegunn/vim-plug/wiki/tutorial 管理 vim
+插件，项目不做插件的封装，需单独安装 vim-plug。然后通过 vim-plug 的命令管理
+vimrc/plugin_config.vim 中的插件
