@@ -63,7 +63,7 @@ nnoremap <C-p> :ProjectFiles<CR>
 """"""""""""""""""""""""""""""
 " => theme
 """"""""""""""""""""""""""""""
-set background=light 
-colorscheme solarized
+set background=light
+colorscheme dracula
 
 

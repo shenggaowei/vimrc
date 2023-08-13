@@ -2,6 +2,8 @@
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
 " Declare the list of plugins.
+Plug 'dracula/vim', { 'as': 'dracula' }
+
 Plug 'easymotion/vim-easymotion'
 
 Plug 'preservim/nerdtree'
@@ -9,7 +11,6 @@ Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
-Plug 'altercation/vim-colors-solarized'
 Plug 'mattn/emmet-vim'
 
 " Use release branch (recommended)
